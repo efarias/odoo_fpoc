@@ -136,7 +136,7 @@
             <field name="model">fpoc.fiscal_printer</field>
             <field name="inherit_id" ref="fpoc.view_fiscal_printer_fiscal_printer_form"/>
             <field name="arch" type="xml">
-                <page string="Attributes" position="inside">
+                <page position="inside">
                     <group attrs="{'invisible': [('protocol','!=','epson_ar')]}" string="Datos Fijos">
                         <field name="header"/>
                         <field name="footer"/>
